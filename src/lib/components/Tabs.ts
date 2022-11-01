@@ -8,7 +8,9 @@ export let tabs: {
             actions: [
                 'Resize',
                 'Crop',
-                'Round'
+                'Round',
+                'Flip',
+                'Rotate'
             ]
         },
         {
@@ -16,7 +18,8 @@ export let tabs: {
             actions: [
                 'Brightness',
                 'Contrast',
-                'Saturation'
+                'Saturation',
+                'Sharpen',
             ]
         },
         {

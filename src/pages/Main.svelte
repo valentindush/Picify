@@ -11,11 +11,11 @@
           <button class="p-2 px-4 text-gray-300 bg-black rounded active:scale-95">Export</button>
         </div>
       </div>
-      <div class="p-4 rounded mt-4 h-1/2 border">
+      <div class="p-4 rounded mt-4 h-[22rem] border-2 border-gray-600">
 
       </div>
       <div class="controls">
-        
+
       </div>
     </section>
 </section>
