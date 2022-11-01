@@ -1,11 +1,14 @@
 <script lang="ts">
   import { tabs } from "./Tabs";
   import Icon from 'svelte-icons-pack'
+
   let activeTab = tabs[0].actions[0];
 
-  const changeTab = (tab) => {
+  export let handler:Function;
+
+  const changeTab = (tab:string) => {
     activeTab = tab;
-    console.log(activeTab);
+    handler(activeTab); 
   }
 </script>
 <nav class="h-full w-[20rem] p-8 pl-16 bg-gray-900 shadow-md">

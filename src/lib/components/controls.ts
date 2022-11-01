@@ -27,6 +27,11 @@ export const Controls_UI: ControlType[] = [
     inputs: [{ name: "angle", inpuType: "number" }],
   },
   {
+    name: 'Round',
+    type: 'Size',
+    inputs: [{name: 'Radius', inpuType: 'number'}]
+  },
+  {
     name: "Flip",
     type: "Size",
     inputs: [{ name: "direction", inpuType: "string" }],
