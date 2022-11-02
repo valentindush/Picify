@@ -1,4 +1,4 @@
-export class Image {
+export class Img {
   private dimensions: { width: number; height: number };
   private rounded: number = 0;
   private flip: string = "up";
